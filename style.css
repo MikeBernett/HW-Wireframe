@@ -1,14 +1,6 @@
 
-/*{
-	outline: red 1px solid;
-	padding: 0px;
-	margin: 0px;
-
-}
-*/
-
 body {
-	background-color: #777
+	background-color: #777;
 }
 
 .longBox {
@@ -21,33 +13,72 @@ body {
 
 .longBoxText {
 	text-align: center;
+	color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px; 
 }
 
 .hText {
-	text-align: center
+	text-align: center;
 }
 
 #wrapper {
-	width: 960px
+	width: 960px;
 	margin: 0 auto;
 }
 
 #middle {
+	display: inline-flex;
+	margin: 20px;
 	height: 300px;
 	width: 960px;
 }
 
 #section {
+	margin-left: 0px;
+	background-color: #ebebeb;
+	width: 450px;
+	/*display: inline-block;
+	position: relative;*/
+	height: 290px;
 
 }
 
 #article {
+	margin: 0 auto;
 	background-color: #777;
+	height: 200px;
+	width: 92%;
+
+}
+
+#aside {
+	margin: 0 0 0 auto;
+	background-color: #ebebeb;
+	width: 450px;
+	/*display: inline-block;
+	position: relative;*/
+	height: 290px;
 
 }
 
 .bs {
+	margin: 10px;
+	background-color: #ebebeb;
 
 }
 
-#aside
+.hText {
+	font-weight: bold;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	color: #777;
+}
+
+.articleText {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	margin-top: 5px
+	font-size: 18px;
+	color: #ebebeb;
+}
